@@ -1,0 +1,1049 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: #0D0C1E;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 14px;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-outline-light {
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+.me-2 {
+    margin-right: 0.5rem !important;
+}
+
+button, select {
+    text-transform: none;
+}
+
+div {
+    display: block;
+}
+
+.bg-dark {
+    background-color: #0A0819 !important;
+}
+
+.text-white {
+    color: rgba(255,255,255) !important;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.col-lg-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.purpleline {
+    background-color: #6429B9 !important;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0A0819;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control-dark {
+    color: #fff;
+    background-color: #0A0819;
+    border-color: #6c757d;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.px-2 {
+    padding-right: 2rem !important;
+    padding-left: 0.5rem !important;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+.me-lg-auto {
+    margin-right: auto !important;
+}
+
+.mb-md-0 {
+    margin-bottom: 0 !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.d-flex {
+    display: flex !important;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.justify-content-lg-start {
+    justify-content: flex-start !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+    width: 100%;
+}
+
+header {
+    display: block;
+}
+
+a {
+    color: white;
+}
+
+.text-end {
+    text-align: right !important;
+}
+
+.me-lg-3 {
+    margin-right: 1rem !important;
+}
+
+.logo {
+    margin-right: 80px;
+}
+
+.text-regular {
+    color: #616075;
+}
+
+.text-semibold {
+    color: white;
+}
+
+.cur-pointer {
+    cursor: pointer;
+}
+
+.text-bold {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.iwatched {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.watchedphoto {
+    margin-top: 20px;
+}
+
+.movieprev {
+    margin: 0 8px;
+    cursor: pointer;
+}
+
+.line {
+    margin-top: 20px;
+}
+
+.newmovies {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.newmoviesphoto {
+    margin-top: 20px;
+}
+
+.popularnow {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.popularnowphoto {
+    margin-top: 20px;
+}
+
+.rateimdb {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.rateimdbphoto {
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #0A0819;
+}
+
+.firstline {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.aboutus {
+    margin-left: 4.5%;
+    display: inline-block;
+}
+
+.devices {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.support {
+    margin-left: 10%;
+    display: inline-block;
+}
+
+.SocSeti {
+    margin-left: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.aboutuscontext {
+    margin-top: 14px;
+}
+
+.devicescontext {
+    margin-top: 14px;
+}
+
+.SocSeticontext {
+    margin-top: 14px;
+}
+
+.fontbold {
+    font-weight: bold;
+}
+
+.fontregular {
+    font-weight: normal;
+}
+
+.font16 {
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.font36 {
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 4.5%;
+}
+
+.copyright {
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 30px 15px;
+}
+
+.copy {
+    position: relative;
+    margin-top: 30px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.iksweb {
+    margin-left: 4%;
+}
+
+.text-gray {
+    color: #bdbdbd;
+    text-decoration: none;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+.btnBack {
+    position: absolute;
+    top: 123px;
+    left: 312px;
+    text-decoration: none;
+}
+
+.movieName {
+    position: absolute;
+    top: 179px;
+    left: 299px;
+    text-decoration: none;
+}
+
+.Name {
+    color: white;
+    font-size: 96px;
+    font-weight: bold;
+}
+
+.movieProperty {
+    position: absolute;
+    top: 419px;
+    left: 299px;
+}
+
+.Property {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.movieDescription {
+    position: absolute;
+    top: 482px;
+    left: 299px;
+}
+
+.Description {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.movieLanguages {
+    position: absolute;
+    top: 611px;
+    left: 299px;
+}
+
+.Languages {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.Subtitles {
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 5px;
+}
+
+.btnWatch {
+    position: absolute;
+    top: 707px;
+    left: 299px;
+    background-color: #6429B9;
+    align-items: center;
+    display: flex;
+    width: 258px;
+    height: 74px;
+    text-align: center;
+    border-radius: 15px;
+    outline: none !important
+}
+
+.text-watch {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.mar-auto {
+    margin: auto;
+}
+
+.btnTrailer {
+    position: absolute;
+    top: 707px;
+    left: 577px;
+    background-color: #18114A;
+    align-items: center;
+    display: flex;
+    width: 258px;
+    height: 74px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.Seasons {
+    margin-top: 28px;
+    margin-left: 299px;
+}
+
+.namemovie {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.buts {
+    border: none;
+    margin-top: 30px;
+    float: left;
+}
+
+    .buts button:not(episodes) {
+        margin-left: -5px;
+    }
+
+    .buts:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+.wid144-h39 {
+    width: 144px;
+    height: 39px;
+    background-color: #0A0819;
+    border: 1px solid white;
+}
+
+    .wid144-h39:hover {
+        background-color: #6429B9;
+        cursor: pointer;
+    }
+
+.txtWhite {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.episodes {
+    position: absolute;
+    top: 1027px;
+    display: flex;
+    flex-direction: row;
+}
+
+.eptext {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.marleft19 {
+    margin-left: 19px;
+}
+
+.charest {
+    position: absolute;
+    margin: 0 auto;
+    top: 850px;
+    background-color: #070515;
+    background-size: 100%;
+    min-width: 1920px;
+    height: 620px;
+}
+
+.rezhes {
+    margin-top: 40px;
+    margin-left: 299px;
+    float: left;
+}
+
+.kinostud {
+    margin-top: 40px;
+    margin-left: 94px;
+    float: left;
+}
+
+.mainrole {
+    position: absolute;
+    top: 1080px;
+    left: 299px;
+}
+
+.bold32 {
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+}
+
+.bold20 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #bdbdbd;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.upline {
+    margin-top: 54px;
+}
+
+.downline {
+    margin-top: 190px;
+}
+
+.tokio {
+    display: flex;
+    float: left;
+}
+
+.profesor {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+}
+
+.raquel {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+}
+
+.berlin {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+}
+
+.rio {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+}
+
+.denver {
+    display: flex;
+    float: left;
+}
+
+.helsinki {
+    display: flex;
+    float: left;
+    margin-left: 50px;
+}
+
+.arturo {
+    display: flex;
+    float: left;
+    margin-left: 79px;
+}
+
+.nairobi {
+    display: flex;
+    float: left;
+    margin-left: 52px;
+}
+
+.marleft10 {
+    margin-left: 17px;
+}
+
+.actorName {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+.actorPsev {
+    font-size: 20px;
+    font-weight: bold;
+    color: #32256C;
+    margin-top: 5px;
+}
+
+.foot {
+    margin-top: 680px;
+    margin-left: 26px;
+}
+
+.settings {
+    position: absolute;
+    top: 100px;
+    left: 299px;
+}
+
+.nastroiki {
+    color: white;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.vibornast {
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+    .vibornast:hover {
+        text-decoration: underline #6429B9;
+    }
+
+.podchert {
+    text-decoration: underline #6429B9;
+}
+
+.vibor {
+    margin-top: 15px;
+    line-height: 40px;
+}
+
+.contacts {
+    position: relative;
+    margin-top: 128px;
+    margin-left: 715px;
+}
+
+.changePass {
+    position: relative;
+    margin-top: 64px;
+    margin-left: 715px;
+}
+
+.informationAboutCost {
+    position: relative;
+    margin-top: 128px;
+    margin-left: 715px;
+}
+
+.informationAboutAuth {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 767px;
+}
+
+.myBankInfo {
+    position: relative;
+    margin-top: 64px;
+    margin-left: 715px;
+}
+
+.informationAboutSubs {
+    position: relative;
+    margin-top: 128px;
+    margin-left: 715px;
+}
+
+.contacti {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.changeP {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.AboutCost {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.AboutSubs {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.BankInfo {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.AuthInfo {
+    position: relative;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.contacti-text {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.auth-text {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.changePass-text {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+    line-height: 30px;
+}
+
+.cost-number {
+    color: white;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.inp {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #C4C4C4;
+    width: 374px;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    background-color: #0D0C1E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.inpForCardNumber {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #C4C4C4;
+    width: 589px;
+    height: 53px;
+    padding: 0.375rem 0.75rem;
+    background-color: #0D0C1E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.inpForCardMonth {
+    margin-top: 15px;
+    margin-right: 24px;
+    font-size: 20px;
+    color: #C4C4C4;
+    width: 133px;
+    height: 53px;
+    padding: 0.375rem 0.75rem;
+    background-color: #0D0C1E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.inpForCardYear {
+    margin-top: 15px;
+    margin-right: 24px;
+    font-size: 20px;
+    color: #C4C4C4;
+    width: 133px;
+    height: 53px;
+    padding: 0.375rem 0.75rem;
+    background-color: #0D0C1E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.inpForCardCVV {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #C4C4C4;
+    width: 269px;
+    height: 53px;
+    padding: 0.375rem 0.75rem;
+    background-color: #0D0C1E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.inpForEmail {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #FFF;
+    width: 383px;
+    height: 53px;
+    padding: 0.375rem 0.75rem;
+    background-color: #0D0C1E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.inpForPassword {
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #FFF;
+    width: 383px;
+    height: 53px;
+    padding: 0.375rem 0.75rem;
+    background-color: #0D0C1E;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+}
+
+.btnSaveContacti {
+    margin-top: 15px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    width: 194px;
+    height: 53px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important
+}
+
+.btnChangePass {
+    margin-top: 15px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    width: 194px;
+    height: 53px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important
+}
+
+.btnAddMoney {
+    margin-top: 15px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    width: 194px;
+    height: 53px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important
+}
+
+.btnSaveCard {
+    margin-top: 15px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    width: 194px;
+    height: 53px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important
+}
+
+.btnDeleteSubs {
+    margin-top: 15px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    width: 194px;
+    height: 53px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important
+}
+
+.btnAuth {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    align-items: center;
+    display: flex;
+    width: 194px;
+    height: 53px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none !important
+}
+
+.text-SaveContacti {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.text-ChangePass {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.text-AddMoney {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.text-SaveCard {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.text-DeleteSubs {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.lineInSettings {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.martop220 {
+    margin-top: 220px;
+}
+
+.martop540 {
+    margin-top: 485px;
+}
+
+.martop10 {
+    margin-top: 10px;
+}
+
+.platezh-system {
+    position: absolute;
+    top: 75px;
+    left: 370px;
+    display: flex;
+    float: left;
+    line-height: 40px;
+}
+
+.visa {
+    margin-right: 15px;
+}
+
+.mir {
+    margin-right: 15px;
+}
+
+.mastercard {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.font24 {
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    margin-top: 15px;
+}
+
+.bold-subs {
+    font-weight: bold;
+}
+
+.createAcc {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-right: 770px;
+    margin-bottom: 100px;
+    text-align: right;
+    display: block;
+}

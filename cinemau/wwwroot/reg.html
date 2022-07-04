@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CinemaU</title>
+    <link rel="stylesheet" type="text/css" href="erik.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body onload="InitialFunction();">
+    <main>
+        <header class="p-3 bg-dark text-white">
+            <div class="container">
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                    <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                        <li>
+                            <a href="main.html" class="nav-link px-2 text-secondary logo text-semibold" style="font-weight: bold; font-size:20px">CinemaU</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-secondary text-semibold" style="font-weight: normal; font-size: 18px">Я смотрю</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-secondary text-regular" style="font-weight: normal; font-size: 18px ">Фильмы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-secondary text-regular" style="font-weight: normal; font-size: 18px ">Сериалы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-secondary text-regular" style="font-weight: normal; font-size: 18px ">Мультфильмы</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link px-2 text-secondary text-regular" style="font-weight: normal; font-size: 18px ">Аниме</a>
+                        </li>
+                        <li>
+                            <a href="settingsmain.html" class="nav-link px-2 text-secondary text-regular" style="font-weight: normal; font-size: 16px ">Настройки</a>
+                        </li>
+                    </ul>
+                    <div class="text-end">
+                        <a class="btn btn-outline-light me-2" href="auth.html">Login</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <form name="userForm">
+            <div class="container">
+                <div class="informationAboutAuth">
+                    <p class="AuthInfo" style="text-align: center; margin-right: 760px">Создать<br>аккаунт</p>
+                    <p class="AuthInfo auth-text">Почта</p>
+                    <input type="text" class="inpForEmail" name="Email"><br>
+                    <p class="AuthInfo auth-text">Номер телефона</p>
+                    <input type="text" class="inpForEmail" name="Phone"><br>
+                    <p class="AuthInfo auth-text">Пароль</p>
+                    <input type="text" class="inpForPassword" name="Password">
+                    <button class="btnAuth" style="border: none;" type="submit" id="submitt">
+                        <p class="text-SaveCard">Создать</p>
+                    </button>
+                    <a href="auth.html" class="createAcc">Войти</a>
+                </div>
+            </div>
+        </form>
+            <footer class="container">
+                <div class="firstline">
+                    <div class="aboutus">
+                        <div class="aboutuss">
+                            <a href="" class="font16 fontbold">О нас</a>
+                        </div>
+                        <div class="aboutuscontext">
+                            <a href="#" class="font16 fontregular">О сервисе</a> <br><br>
+                            <a href="#" class="font16 fontregular">Пользовательское соглашение</a> <br><br>
+                            <a href="#" class="font16 fontregular">Политика конфиденциальности</a> <br><br>
+                        </div>
+                    </div>
+
+                    <div class="devices">
+                        <div class="devicess">
+                            <a href="" class="font16 fontbold">Устройства</a>
+                        </div>
+                        <div class="devicescontext">
+                            <a href="" class="font16 fontregular">Телевизоры со Smart TV</a> <br><br>
+                            <a href="" class="font16 fontregular">ТВ и игровые приставки</a> <br><br>
+                            <a href="" class="font16 fontregular">Смартфоны и планшеты</a> <br><br>
+                        </div>
+                    </div>
+
+                    <div class="support">
+                        <div class="supportt">
+                            <a href="" class="font16 fontbold">Поддержка</a>
+                        </div>
+                        <div class="devicescontext">
+                            <a href="" class="font16 fontregular">support@cinemau.ru</a> <br> <br>
+                            <a href="" class="font16 fontregular">8 (905) 020-99-52</a> <br><br>
+                            <a href="" class="font16 fontregular">FAQ</a> <br><br>
+                        </div>
+                    </div>
+
+                    <div class="SocSeti">
+                        <div class="SocSetii">
+                            <a href="" class="font16 fontbold">Наши соц.сети</a>
+                        </div>
+                        <div class="SocSeticontext">
+                            <a href="https://www.instagram.com/ar.gelick/"><img src="../images/inst.png" alt=""></a>
+                            <a href="https://twitter.com/?lang=ru"><img src="../images/twitter.png" alt=""></a>
+                            <a href="https://www.facebook.com/"><img src="../images/facebook.png" alt=""></a>
+                            <a href="https://t.me/kurechh"><img src="../images/telegram.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copy">
+                    <table class="iksweb">
+                        <tbody>
+                            <tr>
+                                <td><a href="" class="font36">CinemaU</a></td>
+                                <td class="copyright"><a href="" class="copyright">© 2022</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </footer>
+    </main>
+</body>
+</html>
